@@ -1,0 +1,40 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.saveActions.organizeImports": true,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "java.project.sourcePaths": [
+    "labs/oop",
+    "labs"
+  ],
+  "java.project.outputPath": "bin",
+  "java.import.maven.enabled": true,
+  "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot",
+      "default": true
+    }
+  ],
+  "java.debug.settings.forceBuildBeforeLaunch": true,
+  "java.debug.settings.onBuildFailureProceed": false,
+  "java.debug.settings.enableRunDebugCodeLens": false,
+  "java.autobuild.enabled": true,
+  "debug.toolBarLocation": "docked",
+  "java.debug.settings.console": "integratedTerminal",
+  "java.configuration.maven.defaultMojoExecutionAction": "execute",
+  "terminal.integrated.env.windows": {
+    "JAVA_HOME": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot",
+    "PATH": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin;${env:PATH}"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.executorMap": {
+    "java": "cd /d $workspaceRoot && \"C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin\\javac.exe\" -g -encoding UTF-8 -d bin $fullFileName && \"C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin\\java.exe\" -cp bin $fileNameWithoutExt"
+  }
+}

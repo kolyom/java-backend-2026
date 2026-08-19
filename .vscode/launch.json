@@ -1,0 +1,158 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ValidateBST",
+      "request": "launch",
+      "mainClass": "ValidateBST",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "PathSum",
+      "request": "launch",
+      "mainClass": "PathSum",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "SymmetricTree",
+      "request": "launch",
+      "mainClass": "SymmetricTree",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "BinaryTreeLevelOrderTraversal",
+      "request": "launch",
+      "mainClass": "BinaryTreeLevelOrderTraversal",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "InvertBinaryTree",
+      "request": "launch",
+      "mainClass": "InvertBinaryTree",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "MaximumDepthOfBinaryTree",
+      "request": "launch",
+      "mainClass": "MaximumDepthOfBinaryTree",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "MergeTwoSortedLists",
+      "request": "launch",
+      "mainClass": "MergeTwoSortedLists",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "LinkedListCycle",
+      "request": "launch",
+      "mainClass": "LinkedListCycle",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "PascalsTriangle",
+      "request": "launch",
+      "mainClass": "PascalsTriangle",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "ExcelSheetColumnNumber",
+      "request": "launch",
+      "mainClass": "ExcelSheetColumnNumber",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "SqrtX",
+      "request": "launch",
+      "mainClass": "SqrtX",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "SearchInsertPosition",
+      "request": "launch",
+      "mainClass": "SearchInsertPosition",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "RemoveElement",
+      "request": "launch",
+      "mainClass": "RemoveElement",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "MergeSortedArray",
+      "request": "launch",
+      "mainClass": "MergeSortedArray",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "NumberOf1Bits",
+      "request": "launch",
+      "mainClass": "NumberOf1Bits",
+      "projectName": "algorithms"
+    },
+    {
+      "type": "java",
+      "name": "Java",
+      "request": "launch",
+      "mainClass": "${fileBasenameNoExtension}",
+      "classPaths": [
+        "${workspaceFolder}/bin"
+      ],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "javac: all solutions",
+      "console": "integratedTerminal",
+      "shortenCommandLine": "argfile"
+    },
+    {
+      "type": "java",
+      "name": "ValidPerfectSquare",
+      "request": "launch",
+      "mainClass": "ValidPerfectSquare",
+      "classPaths": [
+        "${workspaceFolder}/bin"
+      ],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "javac: all solutions",
+      "console": "integratedTerminal",
+      "shortenCommandLine": "argfile"
+    },
+    {
+      "type": "java",
+      "name": "IsSubsequence",
+      "request": "launch",
+      "mainClass": "IsSubsequence",
+      "classPaths": [
+        "${workspaceFolder}/bin"
+      ],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "javac: all solutions",
+      "console": "integratedTerminal",
+      "shortenCommandLine": "argfile"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot: wallet-service",
+      "request": "launch",
+      "mainClass": "ru.learning.wallet.WalletServiceApplication",
+      "projectName": "wallet-service",
+      "cwd": "${workspaceFolder}/wallet-service",
+      "console": "integratedTerminal"
+    }
+  ]
+}

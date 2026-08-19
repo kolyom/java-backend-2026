@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "name": "learning",
+      "path": "."
+    },
+    {
+      "name": "wallet-service",
+      "path": "wallet-service"
+    }
+  ],
+  "settings": {
+    "java.import.maven.enabled": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot",
+    "java.project.sourcePaths": [
+      "labs/oop",
+      "labs",
+      "algorithms/solutions"
+    ],
+    "java.project.outputPath": "bin"
+  }
+}

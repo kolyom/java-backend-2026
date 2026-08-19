@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "javac: all solutions",
+      "type": "shell",
+      "command": "$jh='C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot'; New-Item -ItemType Directory -Force -Path bin | Out-Null; $files = @(Get-ChildItem -Path 'algorithms\\solutions' -Filter '*.java' -ErrorAction Stop); if ($files.Count -eq 0) { Write-Error 'No java files'; exit 1 }; & \"$jh\\bin\\javac.exe\" -g -encoding UTF-8 -d bin @($files.FullName); if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; Write-Host ('OK: compiled ' + $files.Count + ' files to bin/')",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "powershell.exe",
+          "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-Command"]
+        }
+      },
+      "problemMatcher": {
+        "owner": "javac",
+        "fileLocation": "absolute",
+        "pattern": {
+          "regexp": "^(.*):(\\d+):\\s+(error|warning):\\s+(.*)$",
+          "file": 1,
+          "line": 2,
+          "severity": 3,
+          "message": 4
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true
+      }
+    }
+  ]
+}

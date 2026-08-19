@@ -1,0 +1,13 @@
+# Игнорим сборку и IDE-мусор
+target/
+bin/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.factorypath
+*.class
+*.log
+.DS_Store
+wallet-service.zip
